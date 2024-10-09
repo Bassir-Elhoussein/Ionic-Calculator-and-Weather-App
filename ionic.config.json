@@ -1,0 +1,7 @@
+{
+  "name": "tp1ildw2024ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
