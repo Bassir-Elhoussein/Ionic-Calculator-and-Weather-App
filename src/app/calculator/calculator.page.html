@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="calculator">
+    <div class="display">{{ result }}</div>
+    <div class="buttons">
+      <button (click)="onButtonClick('1')">1</button>
+      <button (click)="onButtonClick('2')">2</button>
+      <button (click)="onButtonClick('3')">3</button>
+      <button (click)="onButtonClick('+')">+</button>
+      <button (click)="onButtonClick('4')">4</button>
+      <button (click)="onButtonClick('5')">5</button>
+      <button (click)="onButtonClick('6')">6</button>
+      <button (click)="onButtonClick('-')">-</button>
+      <button (click)="onButtonClick('7')">7</button>
+      <button (click)="onButtonClick('8')">8</button>
+      <button (click)="onButtonClick('9')">9</button>
+      <button (click)="onButtonClick('*')">*</button>
+      <button (click)="onButtonClick('0')">0</button>
+      <button (click)="onButtonClick('C')">C</button>
+      <button (click)="onButtonClick('=')">=</button>
+      <button (click)="onButtonClick('/')">/</button>
+    </div>
+  </div>
+</ion-content>
+

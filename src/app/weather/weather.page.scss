@@ -1,0 +1,61 @@
+.weather-search-card {
+  background: #000000; /* Black background for the card */
+  color: rgb(255, 255, 255); /* White text color */
+  border: 1px solid rgb(253, 253, 253); /* White border for card */
+  border-radius: 8px; /* Rounded corners */
+  margin: 16px; /* Space around the card */
+  padding: 16px; /* Internal padding */
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.weather-info-card {
+  background: #000000; /* Black background for the card */
+  color: white; /* White text color */
+  border: 1px solid white; /* White border for card */
+  border-radius: 8px; /* Rounded corners */
+  margin: 16px;
+  padding: 16px; /* Internal padding */
+}
+
+.country-flag {
+  vertical-align: middle;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid white; /* White border for the flag */
+}
+
+.weather-icon {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.error-message {
+  display: block;
+  text-align: center;
+  margin: 16px;
+  font-size: 14px;
+  color: rgb(255, 255, 255); /* White text color for error message */
+  font-weight: bold;
+}
+
+ion-content {
+  --background: #000000; /* Black background for the entire content */
+  color: rgb(252, 252, 252); /* White text color */
+}
+
+/* Spinner container centering */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full height while loading */
+}
+ion-card-title {
+  color: white !important; /* Force white text color */
+}

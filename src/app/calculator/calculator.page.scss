@@ -1,0 +1,39 @@
+.calculator {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+  
+    .display {
+      font-size: 2rem;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      text-align: right;
+      color: #f0f0f0;
+    }
+  
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+  
+      button {
+        font-size: 1.5rem;
+        padding: 20px;
+        background: #f0f0f0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background: #d0d0d0;
+      }
+    }
+  }
+  ion-content {
+    --background: #000000; /* Black background */
+    color: white; /* White text color */
+    background-color: black; /* Ensure consistent black background */
+  }
+  
